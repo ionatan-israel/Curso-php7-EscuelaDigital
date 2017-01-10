@@ -148,5 +148,5 @@ SELECT nombre, precio FROM productos WHERE nombre LIKE '%S%' AND precio >= 1500;
 
 
 // Eliminar registros: RECUERDEN NUNCA OLVIDAR EL WHERE
-// Elimina el producto con el id 3
+// Elimina el producto con el id 3 
 DELETE FROM productos WHERE id = 3;
